@@ -17,6 +17,8 @@ Console.WriteLine ("Ваш массив: ");
 {
     if (array[i]>=0)
      sum = sum + array[i];
+else
+sum1 = sum1 + array[i];
 }
 
 Console.WriteLine ($"Сумма положительных чисел равна {sum}, а отрицательных {sum1}");
